@@ -1,0 +1,27 @@
+{
+  "title": "Flexible living for dynamic people",
+  "subtitle": "The London home for light-footed househoppers who can't decide if they're travelling for business or pleasure",
+  "call_to_action_1": "Find an available room",
+
+  "testimonials": [{
+    "name": "Rebecca Collins",
+    "message": "Being a freelancer, I often work remotely and visit the world. Knowing that I can escape the overhead of rent with a weeks’ notice and hop on a cheap flight offer to Bali for a month allows me to live life to the fullest."
+  },{
+  "name": "Ham the Illustrator",
+  "message": "When I won a music producing scholarship in LA, I was ecstatic. But I couldn’t have accepted it if I was also covering rent in London too. CoHome enables me to come and go as I please, so long as I give value back to the community."
+  },{
+  "name": "Rima Patel",
+  "message": "I got a three month contract in Shoreditch, and couldn’t face the 3 hours of commuting. Not only was CoHome 10mins from work, but the flatmates there uncovered new ways to enjoy the contracting lifestyle."
+  },{
+  "name": "Nomad Jack",
+  "message": "I only booked one night when I first came to CoHome, and what a night it was. After being inspired by like-minded lifestyle entrepreneurs, I do a week at CoHome every time I pass through London."
+  }],
+
+  "vision": [
+    "At CoHome, we’re seeing 12 month rental contracts don’t fit with our ever-changing careers, and that’s why we’ve baked flexibility into the core of the CoHome concept.",
+    "By applying an incentive structure to everyone involved with CoHome, we’ve created a model that can compensate for whatever your needs, with easy access. And now, we can enjoy the company of short, medium, and long term guests with no complications.",
+    "With collaborative consumption baked into the core, whatever works for you works for us."
+  ],
+
+  "call_to_action_2": "Don’t believe us? See if we can accommodate you!"
+}

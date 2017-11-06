@@ -1,11 +1,46 @@
+var fs = require('fs'),
+    path = require('path');
+
+function getJsonFile(path) {
+  if (!fs.existsSync(path)) return {};
+
+  try {
+    return JSON.parse(fs.readFileSync(path));
+  } catch (e) {
+    return {};
+  }
+}
+
+function mergeObjects(obj1, obj2) {
+  for (var key in obj2) {
+    obj1[key] = obj2[key];
+  }
+  return obj1;
+}
+
 module.exports = {
-  html        : true,
   images      : true,
   fonts       : true,
   static      : true,
   svgSprite   : true,
   ghPages     : true,
   stylesheets : true,
+
+  html: {
+    dataFunction: function (file) {
+      var globalDataPath = path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.html.src, TASK_CONFIG.html.dataFile),
+          pageDataFile = path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.html.src, 'data', path.basename(file.path, '.html') + '.json');
+
+      console.log(globalDataPath, pageDataFile);
+
+      var data = [globalDataPath, pageDataFile]
+        .map(getJsonFile)
+        .reduce(mergeObjects,{});
+
+
+      return data;
+    }
+  },
 
   javascripts: {
     entry: {

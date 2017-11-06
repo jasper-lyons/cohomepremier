@@ -18,10 +18,10 @@ Docs: https://mozilla.github.io/nunjucks/api.html
   <!-- Banner -->
   <section id="banner">
     <div class="inner">
-      <h2>{{ flexible_living.title }}</h2>
-      <p>{{ flexible_living.subtitle }}</p>
+      <h2>{{ title }}</h2>
+      <p>{{ subtitle }}</p>
       <ul class="actions">
-        <li><a href="#" class="button special">{{ flexible_living.call_to_action_1 }}</a></li>
+        <li><a href="#" class="button special">{{ call_to_action_1 }}</a></li>
       </ul>
     </div>
   </section>
@@ -33,7 +33,7 @@ Docs: https://mozilla.github.io/nunjucks/api.html
         <h2>Previous Househoppers</h2>
       </header>
       <ul class="features">
-        {% for testimonial in flexible_living.testimonials %}
+        {% for testimonial in testimonials %}
         <li>
           <img src="{{ testimonial.image }}" alt="Image of {{ testimonial.name }}"/>
           <h3>{{ testimonial.name }}</h3>
@@ -49,7 +49,7 @@ Docs: https://mozilla.github.io/nunjucks/api.html
     <div class="inner">
       <header class="major">
         <h2>What we're doing</h2>
-        {% for paragraph in flexible_living.vision %}
+        {% for paragraph in vision %}
         <p>{{ paragraph }}</p>
         {% endfor %}
       </header>
@@ -65,10 +65,10 @@ Docs: https://mozilla.github.io/nunjucks/api.html
   <section id="cta" class="wrapper style4">
     <div class="inner">
       <header>
-        <h2>{{ flexible_living.call_to_action_2 }}</h2>
+        <h2>{{ call_to_action_2 }}</h2>
       </header>
       <ul class="actions vertical">
-        <li><a href="#" class="button fit special">{{ flexible_living.call_to_action_1 }}</a></li>
+        <li><a href="#" class="button fit special">{{ call_to_action_1 }}</a></li>
       </ul>
     </div>
   </section>

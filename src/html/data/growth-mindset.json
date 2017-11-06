@@ -1,0 +1,24 @@
+{
+  "title": "Discover the home that builds you",
+  "subtitle": "CoHome is an experimental CoLiving concept where people help each other grow themselves; Whether that be in interpersonal, financial, professional, experiential, or spiritual:",
+  "call_to_action_1": "Grow with us",
+
+  "testimonials": [{
+    "name": "Meng Lespes",
+    "message": "I really value finding likeminded people, because they come from very different backgrounds, and the contrast really helps me remember how to be ‘normal’."
+  },{
+    "name": "Annika Lilly",
+    "message": "I wanted to check out the CoHome concept as soon as I discovered it on Airbnb. When I got there, everyone was so nice and welcoming that I cancelled the second half of my trip to stay at CoHome for longer, whilst we built the community together."
+  },{
+  "name": "Elliott Denman",
+  "message": " I live life to meet beautiful minds, and at CoHome I was delighted to find so many. The intellectual conversation about relationships, coaching, and digital skills really broadened my perspectives."
+  }],
+
+  "vision": [
+    "CoHome is a house for people with big ideas - whether they be professional, spiritual, or interpersonal. Whatever stars you’re reaching for, you’ll achieve more if you’re not doing it alone.",
+    "At CoHome, we’ve built a culture of being naturally interested in each other, challenging flatmates to reach for their goals.",
+    "Oh, and if you want to get involved with a whole network of likeminded go-getters we’ll get you integrated with the London tech scene 100x faster than you would have in any other way."
+  ],
+
+  "call_to_action_2": "Grow with us"
+}

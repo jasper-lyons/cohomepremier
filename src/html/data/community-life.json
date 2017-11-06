@@ -1,0 +1,24 @@
+{
+  "title": "Get under the skin of London",
+  "subtitle": "CoHome is a concept where people can truly relax with likeminded flatmates - quite a feat, when we’re a community of light-footed househoppers!",
+  "call_to_action_1": "Come and meet us",
+
+  "testimonials": [{
+    "name": "Rebecca Collins",
+    "message": "Being a freelancer, I often work remotely and visit the world. Knowing that I can escape the overhead of rent with a weeks’ notice and hop on a cheap flight offer to Bali for a month allows me to live life to the fullest."
+  },{
+    "name": "Nomad Jack",
+    "message": "I only booked one night when I first came to CoHome, and what a night it was. After being inspired by like-minded lifestyle entrepreneurs, I do a week at CoHome every time I pass through London."
+  },{
+    "name": "Annika Lilly",
+    "message": "I wanted to check out the CoHome concept as soon as I discovered it on Airbnb. When I got there, everyone was so nice and welcoming that I cancelled the second half of my trip to stay at CoHome for longer, whilst we built the community together."
+  }],
+
+  "vision": [
+    "With 10 million people in London, it’s easy to meet people. But it’s damn hard to make good friends.",
+    "Instead of drifting through London, live with people who are trying to change the world through entrepreneurship and technology! Even if we’re not quite your type, we’ll make it easy to meet our friends, their friends, and eventually a group of people you want to stay connected with.",
+    "But if we are your type, and you want to build a network of lifestyle entrepreneurs, we’ll help you get integrated to the London tech scene 100x faster."
+  ],
+
+  "call_to_action_2": "Come and meet us"
+}

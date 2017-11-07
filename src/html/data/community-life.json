@@ -3,6 +3,20 @@
   "subtitle": "CoHome is a concept where people can truly relax with likeminded flatmates - quite a feat, when we’re a community of light-footed househoppers!",
   "call_to_action_1": "Come and meet us",
 
+  "how": [{
+    "name": "Step 1",
+    "message": "View Availabiility blah blah"
+  },{
+  "name": "Step 2",
+  "message": "Talk to cohome"
+  },{
+  "name": "Step 3",
+  "message": "Check in"
+  },{
+  "name": "In the safety of AirBnB",
+  "message": ""
+  }],
+
   "testimonials": [{
     "name": "Rebecca Collins",
     "message": "Being a freelancer, I often work remotely and visit the world. Knowing that I can escape the overhead of rent with a weeks’ notice and hop on a cheap flight offer to Bali for a month allows me to live life to the fullest."

@@ -31,8 +31,6 @@ module.exports = {
       var globalDataPath = path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.html.src, TASK_CONFIG.html.dataFile),
           pageDataFile = path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.html.src, 'data', path.basename(file.path, '.html') + '.json');
 
-      console.log(globalDataPath, pageDataFile);
-
       var data = [globalDataPath, pageDataFile]
         .map(getJsonFile)
         .reduce(mergeObjects,{});
@@ -44,8 +42,6 @@ module.exports = {
 
   javascripts: {
     entry: {
-      // files paths are relative to
-      // javascripts.dest in path-config.json
       app: ['./app.js']
     },
     provide: {

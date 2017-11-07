@@ -1,0 +1,15 @@
+<!-- Social Proof -->
+<section id="three" class="wrapper style1 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Previous Househoppers</h2>
+    </header>
+      {% for testimonial in testimonials %}
+      <p>
+        <img src="{{ testimonial.image }}" alt="Image of {{ testimonial.name }}"/>
+        <h3>{{ testimonial.name }}</h3>
+        <p>{{ testimonial.message }}</p>
+      </p>
+      {% endfor %}
+  </div>
+</section>

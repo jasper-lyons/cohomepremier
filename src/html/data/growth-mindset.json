@@ -3,6 +3,20 @@
   "subtitle": "CoHome is an experimental CoLiving concept where people help each other grow themselves; Whether that be in interpersonal, financial, professional, experiential, or spiritual:",
   "call_to_action_1": "Grow with us",
 
+  "how": [{
+    "name": "Step 1",
+    "message": "View Availabiility blah blah"
+  },{
+  "name": "Step 2",
+  "message": "Talk to cohome"
+  },{
+  "name": "Step 3",
+  "message": "Check in"
+  },{
+  "name": "In the safety of AirBnB",
+  "message": ""
+  }],
+
   "testimonials": [{
     "name": "Meng Lespes",
     "message": "I really value finding likeminded people, because they come from very different backgrounds, and the contrast really helps me remember how to be ‘normal’."

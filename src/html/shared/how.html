@@ -1,0 +1,17 @@
+<!-- Social Proof -->
+<section id="three" class="wrapper style1 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Previous Househoppers</h2>
+    </header>
+    <ul class="features">
+      {% for reason in how %}
+      <li>
+        <img src="{{ reason.image }}" alt="Image of {{ reason.name }}"/>
+        <h3>{{ reason.name }}</h3>
+        <p>{{ reason.message }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
